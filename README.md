@@ -5,14 +5,7 @@ Based on https://github.com/docker/awesome-compose/tree/master/django
 ## Deploy with docker compose
 
 ```
-$ docker compose up -d
-Creating network "django_default" with the default driver
-Building web
-Step 1/6 : FROM python:3.7-alpine
-...
-...
-Status: Downloaded newer image for python:3.7-alpine
-Creating django_web_1 ... done
+docker compose up -d --build web
 
 ```
 

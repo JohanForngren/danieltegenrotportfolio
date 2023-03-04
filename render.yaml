@@ -2,3 +2,4 @@ services:
   - type: web
     name: portfolio
     dockerContext: app
+    env: docker
